@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Я ебу собак...">
-    <meta name="author" content="Зоофил">
-    <meta name="keywords" content="собаки, кошки">
+    <meta name="description" content="...">
+    <meta name="author" content="...">
+    <meta name="keywords" content="...">
     <meta name="robots" content="all">
     
     <meta property="">
     
     <title>Михаил Шарыгин - Веб-разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -17,13 +19,14 @@
   <header>
       <nav>
           <div class="logo">Михаил Шарыгин</div>
-          <div class="menu"><ul>
-              <li><a href="#">Обо мне</a></li>
-              <li><a href="#">Услуги</a></li>
-              <li><a href="#">Кейсы</a></li>
-              <li><a href="#">Прайс</a></li>
-              <li><a href="#">Отзывы</a></li>
-              <li><a href="#">Контакты</a></li>
+          <div class="menu">
+             <ul>
+              <li>Обо мне</li>
+              <li>Услуги</li>
+              <li>Кейсы</li>
+              <li>Прайс</li>
+              <li>Отзывы</li>
+              <li>Контакты</li>
           </ul>
           </div>
           
@@ -35,68 +38,75 @@
       <h4>Фулл стек веб-разработчик</h4>
       <input type="submit" value="Обо мне">
       <input type="submit" value="Мои работы">
-      </div>
+</div>
   </div>
   
   <div class="about_me">
-   <h2>Обо мне</h2>
-    <img src="..." alt="">
-    <img src="....." alt="">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse earum consectetur nemo architecto totam ullam quam maiores asperiores alias iure ducimus sint, hic sequi, dignissimos minima, ea sed ut culpa.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse earum consectetur nemo architecto totam ullam quam maiores asperiores alias iure ducimus sint, hic sequi, dignissimos minima, ea sed ut culpa.</p>
+  <div class="about_me1">
+   <h2>Обо мне</h2> <hr>
+    <img src="img/myphoto.png" alt="">
+    <p class="text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse earum consectetur nemo architecto totam ullam quam maiores asperiores alias iure ducimus sint, hic sequi, dignissimos minima, ea sed ut culpa.</p>
+    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse earum consectetur nemo architecto totam ullam quam maiores asperiores alias iure ducimus sint, hic sequi, dignissimos minima, ea sed ut culpa.</p>
     <input type="submit" value="Скачать резюме">
+    </div>
   </div>
   
   <div class="skills">
+     <div class="skills1">
       <h2>Что я умею</h2>
-      <img src="..." alt="">
+      <hr>
       <div class="skills_1">
-          <img src="..." alt="">
+          <img src="img/pc.png" alt="">
           <h3>Веб-дизайн</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
-      </div>
+          </div>
       <div class="skills_1">
-          <img src="..." alt="">
+          <img src="img/log.png" alt="">
           <h3>Разработка</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
       </div>
       <div class="skills_1">
-          <img src="..." alt="">
+          <img src="img/log2.png" alt="">
           <h3>СЕО-оптимизация</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
       </div>
       <div class="skills_1">
-          <img src="..." alt="">
+          <img src="img/log3.png" alt="">
           <h3>Маркетинг</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
+      </div>
+      <div class="clear"></div>
       </div>
   </div>
 
 <div class="keys">
+   <div class="keys1">
     <h2>Кейсы</h2>
-    <img src="..." alt="">
+    <hr>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
-    <img src="..." alt="">
-    <div>
+    <img src="img/photo.png" alt="">
+    <div class="keys_left">
        <h3>Client</h3>
        <p>Какая-то компания</p> 
-    </div>
-    <div>
        <h3>Website</h3>
-       <p>https://google.com</p> 
+       <p>https://google.com</p>
+       <a href="#">Visit live site</a> 
     </div>
-     <div>
-       <h3>Название проекта</h3>
+     <div class="keys_right">
+       <h4>Название проекта</h4>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ad, dolorum ab possimus alias provident labore laudantium nam aut odit repellat corporis numquam veniam enim, suscipit rem quas maiores saepe repellendus incidunt voluptates amet quaerat culpa voluptatem molestias! Aspernatur, cum.</p> 
     </div>
-     <input type="submit" value="Visit live site">
+    <div class="clear"></div>
+     </div>
 </div>
 
 <div class="money">
+   <div  class="money1">
     <h2>Расчет стоимости</h2>
+    <div class="money2">
     <div>
         <h3>Тип сайта</h3>
-        <select name="list1" id="list">
+        <select class="List1" name="list1" id="list">
             <option value="op1">Выберите пункт...</option>
             <option value="op2">Сайт 1</option>
             <option value="op3">Сайт 2</option>
@@ -105,7 +115,7 @@
     </div>
      <div>
         <h3>Дизайн</h3>
-        <select name="list1" id="list">
+        <select class="List1" name="list1" id="list">
             <option value="op1">Выберите пункт...</option>
             <option value="op2">Дизайн 1</option>
             <option value="op3">Дизайн 2</option>
@@ -114,85 +124,122 @@
     </div>
      <div>
         <h3>Адаптивность</h3>
-        <select name="list1" id="list">
+        <select class="List1" name="list1" id="list">
             <option value="op1">Выберите пункт...</option>
             <option value="op2">Адаптивность 1</option>
             <option value="op3">Адаптивность 2</option>
             <option value="op1">Адаптивность 3</option>
         </select>
+        <hr>
     </div>
-    <img src="..." alt="">
-    <h4>Сроки</h4>
-    <h4>Стоимость</h4>
+    <div class="calculator_footer">
+                    <div class="days">
+                        <p class="text">Сроки</p>
+                        <p class="digit">0</p>
+                        <div class="clear"></div>
+                    </div>
+                    
+                     <div class="price">
+                        <p class="text">Стоимость</p>
+                        <p class="digit">0</p>
+                        <div class="clear"></div>
+                    </div>
+                    
+    </div>
+    </div>
 </div>
-
+</div>
 <div class="statistics">
+   <div class="statistics1"> 
     <h2>Немного статистики</h2>
-    <div>
-        <img src="..." alt="">
+    <hr>
+    <div class="stat">
+    <div class="statistics_item">
+        <img src="img/logo1.png" alt="">
         <h3>120</h3>
         <p>Счастливых клиентов</p>
     </div>
-    <div>
-        <img src="..." alt="">
+    <div class="statistics_item">
+        <img src="img/logo2.png" alt="">
         <h3>4600</h3>
         <p>Часов работы</p>
     </div>
-    <div>
-        <img src="..." alt="">
+    <div class="statistics_item">
+        <img src="img/logo3.png" alt="">
         <h3>340</h3>
         <p>Проектов завершено</p>
     </div>
-    <div>
-        <img src="..." alt="">
+    <div class="statistics_item">
+        <img src="img/logo4.png" alt="">
         <h3>23</h3>
         <p>Наград получено</p>
+    </div>
+    </div>
     </div>
 </div>
 
 <div class="reviews">
+   <div class="reviews1">
     <h2>Отзывы</h2>
-    <img src="..." alt="">
-    <img src="..." alt="">
+    <hr>
+    <div class="reviews2">
+    <img src="img/mihail.png" alt="">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore non deleniti, excepturi temporibus quos inventore voluptates ullam sint cumque dolore mollitia doloremque, quasi vel fugit ipsam molestias iure eaque, distinctio.</p>
         <p><b>Михаил</b>, Ген директор ПАО "Газпром"</p>
 </div>
+</div>
+</div>
 
 <div class="contacts">
+   <div class="contacts1">
     <h2>Мои контакты</h2>
-    <img src="..." alt="">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ut aut, adipisci beatae atque earum.</p>
-    <div>
-        <img src="" alt="">
+    <hr>
+    <p class="contact_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ut aut, adipisci beatae atque earum.</p>
+    <div class="contact_data">
+    <div class="contact_item">
+        <img src="img/geo.png" alt="">
         <p>Санкт-Петербург <br>Невский проспект 11</p>
     </div>
-    <div>
-        <img src="" alt="">
+    <div class="contact_item">
+        <img src="img/mail.png" alt="">
         <p>МЫЛО</p>
     </div>
-    <div>
-        <img src="" alt="">
+    <div class="contact_item">
+        <img src="img/tel.png" alt="">
         <p>8-800-555-3535</p>
     </div>
+       </div>
+       <div class="clear"></div>
         <h3>Оставьте мне сообщение</h3>
-        <input type="text" name="text_input" placeholder="Имя">
-        <input type="text" name="text_input" placeholder="Email">
-        <br>
-        <textarea name="text1" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-        <br>
-        <input type="submit" value="Отправить">
-        <div>
-            <img src="fb" alt="">
-            <img src="tw" alt="">
-            <img src="inst" alt="">
+        <form action="#">
+                <div class="contacts_inputs">
+                    <input type="text" placeholder="Имя">
+                    <input class="secondInput" type="text" placeholder="Email">
+                    <div class="clear"></div>
+                </div>
+                <textarea placeholder="Сообщение" name="message" id="messageText" cols="30" rows="10"></textarea>
+                <input type="submit" value="Отправить">
+            </form>
+            <div class="contacts_social">
+                <a href="#"><img src="img/fb.png" alt=""></a>
+                <a href="#"><img src="img/tvit.png" alt=""></a>
+                <a href="#"><img src="img/bool.png" alt=""></a>
+                <a href="#"><img src="img/kat.png" alt=""></a>
+                <a href="#"><img src="img/inst.png" alt=""></a>
+                <a href="#"><img src="img/in.png" alt=""></a>
+                <div class="clear"></div>
+        </div>
         </div>
 </div>
 
 <div class="maps">
-    <img src="maps" alt="">
+    <img src="img/map.png" alt="">
+</div>
+<div class="fotter1">
+   <div class="fotter2">
+    <p>Я сделал!</p>
+</div>
 </div>
 </body>
-<footer>
-    <p>Я сделал!</p>
-</footer>
+
 </html>
