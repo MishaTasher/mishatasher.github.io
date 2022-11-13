@@ -13,6 +13,7 @@
     <title>Михаил Шарыгин - Веб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -75,78 +76,95 @@
   <div class="about_me">
   <div class="about_me1 container">
        <div class="row justify-content-center">
-       <div class="Ant col-2 text-center"><h2>Обо мне</h2> <hr></div>
+       <div class="Ant col-12 col-sm-6 col-md-3 text-center"><h2>Обо мне</h2> <hr></div>
        </div>
-       </div>
-    <img src="img/myphoto.png" alt="">
-    <p class="text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse earum consectetur nemo architecto totam ullam quam maiores asperiores alias iure ducimus sint, hic sequi, dignissimos minima, ea sed ut culpa.</p>
-    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse earum consectetur nemo architecto totam ullam quam maiores asperiores alias iure ducimus sint, hic sequi, dignissimos minima, ea sed ut culpa.</p>
-    <input type="submit" value="Скачать резюме">
+    <img class="d-block mx-auto" src="img/myphoto.png" alt="">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-11 col-md-9 col-lg-8 text-center text-md-start">
+    <p class="text1 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse earum consectetur nemo architecto totam ullam quam maiores asperiores alias iure ducimus sint, hic sequi, dignissimos minima, ea sed ut culpa.</p>
+    <p class="text2 mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse earum consectetur nemo architecto totam ullam quam maiores asperiores alias iure ducimus sint, hic sequi, dignissimos minima, ea sed ut culpa.</p>
     </div>
-  </div>
+    </div>
+    <div class="row justify-content-center">
+    <div class="col-6 col-sm-5 col-md-4 col-lg-2 text-center">
+    <a href="#" class="Boton-1">Скачать резюме</a>
+    </div>
+    </div>
+    </div>
+    </div>
   
-  <!--<div class="skills">
-     <div class="skills1">
+  <div class="skills">
+     <div class="skills1 container">
       <h2>Что я умею</h2>
       <hr>
-      <div class="skills_1">
+      <div class="row justife-content-center text-center">
+      <div class="skills_1 col-12 col-sm-6 col-md-3">
           <img src="img/pc.png" alt="">
           <h3>Веб-дизайн</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
           </div>
-      <div class="skills_1">
+      <div class="skills_1 col-12 col-sm-6 col-md-3 mt-5 mt-sm-0">
           <img src="img/log.png" alt="">
           <h3>Разработка</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
       </div>
-      <div class="skills_1">
+      <div class="skills_1 col-12 col-sm-6 col-md-3 mt-5 mt-md-0">
           <img src="img/log2.png" alt="">
           <h3>СЕО-оптимизация</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
       </div>
-      <div class="skills_1">
+      <div class="skills_1 col-12 col-sm-6 col-md-3 mt-5 mt-md-0">
           <img src="img/log3.png" alt="">
           <h3>Маркетинг</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
       </div>
-      <div class="clear"></div>
+      </div>
       </div>
   </div>
 
 <div class="keys">
-   <div class="keys1">
+   <div class="keys1 container">
     <h2>Кейсы</h2>
     <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
-    <img src="img/photo.png" alt="">
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem!</p>
+        <div class="row">
+    <img class=" col-12" src="img/photo.png" alt="">
+    </div>
     <div class="keys_left">
+       <div class="row justife-content-between">
+       <div class="col-12 col-md-4 col-lg-3  description_left">
        <h3>Client</h3>
        <p>Какая-то компания</p> 
        <h3>Website</h3>
        <p>https://google.com</p>
-       <a href="#">Visit live site</a> 
-    </div>
-     <div class="keys_right">
+       <a href="#">Перейти на сайт</a> 
+       </div>
+    
+     <div class="keys_right col-12 col-md-8 col-lg-9 description_right mt-3 ps-md-5 mt-md-0 ">
        <h4>Название проекта</h4>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ad, dolorum ab possimus alias provident labore laudantium nam aut odit repellat corporis numquam veniam enim, suscipit rem quas maiores saepe repellendus incidunt voluptates amet quaerat culpa voluptatem molestias! Aspernatur, cum.</p> 
+       </div>
+       </div>
     </div>
-    <div class="clear"></div>
      </div>
 </div>
 
-<div class="money">
-   <div  class="money1">
+
+  <div class="money">
+   <div  class="money1 container">
     <h2>Расчет стоимости</h2>
-    <div class="money2">
+    <div class="money2 rowr">
     <div>
+       <div class="col-12 col-md-10 mx-auto">
         <h3>Тип сайта</h3>
-        <select class="List1" name="list1" id="list">
+        <div class="col-12">
+           <select class="List1" name="list1" id="list">
             <option value="op1">Выберите пункт...</option>
             <option value="op2">Сайт 1</option>
             <option value="op3">Сайт 2</option>
             <option value="op1">Сайт 3</option>
         </select>
-    </div>
+        </div>
      <div>
         <h3>Дизайн</h3>
         <select class="List1" name="list1" id="list">
@@ -164,9 +182,12 @@
             <option value="op3">Адаптивность 2</option>
             <option value="op1">Адаптивность 3</option>
         </select>
+        </div>
         <hr>
     </div>
-    <div class="calculator_footer">
+    </div>
+    <div class="calculator_footer row">
+                   <div class="col-12 col-md-10 mx-auto">
                     <div class="days">
                         <p class="text">Сроки</p>
                         <p class="digit">0</p>
@@ -178,32 +199,38 @@
                         <p class="digit">0</p>
                         <div class="clear"></div>
                     </div>
-                    
+                    </div>
+                    <div class="row justify-content-center text-center">
+                            <div class="col-12 ">
+                                <button class="mx-auto">Оставить заявку</button>
+                                </div>
+        </div>            
     </div>
     </div>
 </div>
 </div>
-<div class="statistics">
-   <div class="statistics1"> 
+
+  <div class="statistics">
+   <div class="statistics1 container"> 
     <h2>Немного статистики</h2>
     <hr>
-    <div class="stat">
-    <div class="statistics_item">
+    <div class="stat row justife-content-center text-center">
+    <div class="statistics_item col-12 col-sm-6 col-md-3">
         <img src="img/logo1.png" alt="">
         <h3>120</h3>
         <p>Счастливых клиентов</p>
     </div>
-    <div class="statistics_item">
+    <div class="statistics_item col-12 col-sm-6 col-md-3 mt-5 mt-sm-0">
         <img src="img/logo2.png" alt="">
         <h3>4600</h3>
         <p>Часов работы</p>
     </div>
-    <div class="statistics_item">
+    <div class="statistics_item col-12 col-sm-6 col-md-3 mt-5 mt-md-0">
         <img src="img/logo3.png" alt="">
         <h3>340</h3>
         <p>Проектов завершено</p>
     </div>
-    <div class="statistics_item">
+    <div class="statistics_item col-12 col-sm-6 col-md-3 mt-5 mt-md-0">
         <img src="img/logo4.png" alt="">
         <h3>23</h3>
         <p>Наград получено</p>
@@ -213,55 +240,61 @@
 </div>
 
 <div class="reviews">
-   <div class="reviews1">
+   <div class="reviews1 container">
     <h2>Отзывы</h2>
     <hr>
-    <div class="reviews2">
+    <div class="row justify-content-center text-center">
+    <div class="reviews2 col-12 col-md-8">
     <img src="img/mihail.png" alt="">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore non deleniti, excepturi temporibus quos inventore voluptates ullam sint cumque dolore mollitia doloremque, quasi vel fugit ipsam molestias iure eaque, distinctio.</p>
         <p><b>Михаил</b>, Ген директор ПАО "Газпром"</p>
 </div>
 </div>
 </div>
+</div>
 
 <div class="contacts">
-   <div class="contacts1">
+   <div class="contacts1 container">
     <h2>Мои контакты</h2>
     <hr>
     <p class="contact_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ut aut, adipisci beatae atque earum.</p>
-    <div class="contact_data">
-    <div class="contact_item">
+    <div class="contact_data row justify-content-center text-center">
+    <div class="contact_item col-12 col-sm-4 col-lg-3">
         <img src="img/geo.png" alt="">
         <p>Санкт-Петербург <br>Невский проспект 11</p>
     </div>
-    <div class="contact_item">
+    <div class="contact_item col-12 col-sm-4 col-lg-3 mt-4 mt-md-0">
         <img src="img/mail.png" alt="">
         <p>МЫЛО</p>
     </div>
-    <div class="contact_item">
+    <div class="contact_item col-12 col-sm-4 col-lg-3 mt-4 mt-md-0">
         <img src="img/tel.png" alt="">
         <p>8-800-555-3535</p>
     </div>
        </div>
-       <div class="clear"></div>
         <h3>Оставьте мне сообщение</h3>
         <form action="#">
-                <div class="contacts_inputs">
-                    <input type="text" placeholder="Имя">
-                    <input class="secondInput" type="text" placeholder="Email">
-                    <div class="clear"></div>
+                <div class="contacts_inputs row justify-content-center text-center">
+                    <div class="col-10 col-sm-5 col-md-5 col-lg-4"><input type="text" placeholder="Имя"></div>
+                    <div class="col-10 col-sm-5 col-md-5 col-lg-4"><input class="secondInput" type="text" placeholder="Email">
                 </div>
+                </div>
+                <div class="row row justify-content-center text-center">
+                <div class="col-10 col-sm-10 col-lg-8">
                 <textarea placeholder="Сообщение" name="message" id="messageText" cols="30" rows="10"></textarea>
+                </div>
+                 </div>
+                 
                 <input type="submit" value="Отправить">
             </form>
-            <div class="contacts_social">
-                <div class="rotate1"><a href="#"><img src="img/fb.png" alt=""></a></div>
-                <div class="rotate1"><a href="#"><img src="img/tvit.png" alt=""></a></div>
-                <div class="rotate1"><a href="#"><img src="img/bool.png" alt=""></a></div>
-                <div class="rotate1"><a href="#"><img src="img/kat.png" alt=""></a></div>
-                <div class="rotate1"><a href="#"><img src="img/inst.png" alt=""></a></div>
-                <div class="rotate1"><a href="#"><img src="img/in.png" alt=""></a></div>
-                <div class="rotate1"><div class="clear"></div>
+            
+            <div class="contacts_social row justify-content-center text-center">
+                <div class="rotate1 col-4 col-md-1"><a href="#"><img src="img/fb.png" alt=""></a></div>
+                <div class="rotate1 col-4 col-md-1"><a href="#"><img src="img/tvit.png" alt=""></a></div>
+                <div class="rotate1 col-4 col-md-1"><a href="#"><img src="img/bool.png" alt=""></a></div>
+                <div class="rotate1 col-4 col-md-1 mt-5 mt-md-0"><a href="#"><img src="img/kat.png" alt=""></a></div>
+                <div class="rotate1 col-4 col-md-1 mt-5 mt-md-0"><a href="#"><img src="img/inst.png" alt=""></a></div>
+                <div class="rotate1 col-4 col-md-1 mt-5 mt-md-0"><a href="#"><img src="img/in.png" alt=""></a></div>
         </div>
         </div>
 </div>
@@ -274,7 +307,7 @@
     <p>Я сделал!</p>
 </div>
 </div>
--->
+
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
